@@ -2,7 +2,7 @@
 
 ## Setup
 
-This script allows to extract and download the music from your favourite youtube videos in mp3 format.
+YAD is a script that allows to extract and download the music from your favourite youtube videos in mp3 format.
 
 ### Upgrade pip and install youtube-dl
 
@@ -20,7 +20,7 @@ Extract the content of the zip file and add the binaries to the location of the 
 ## Run the script
 
 ```bash
-$ python youtube_downloader.py --url https://www.youtube.com/watch?v=OmH_wUt2o6g --output-name test.mp3
+$ python yad.py --url https://www.youtube.com/watch?v=OmH_wUt2o6g --output-filename test.mp3
 ```
 
 The script may take several seconds/minutes to finish depending on the length of the video, the quality, etc.
