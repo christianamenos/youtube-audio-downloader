@@ -45,11 +45,14 @@ if args.url:
 
 
 current_directory = os.path.dirname(os.path.abspath(__file__))
-download_folder = 'dowloads'
+download_folder = 'downloads'
 download_path = os.path.join(current_directory, download_folder)
-if args.output_folder:
+if args.output_path:
     download_path = args.output_folder
 
+# TODO: check if the output folder exists or create it
+# TODO: use the args properly
+# TODO: remove the hardcoded links
 
 os.chdir(download_path)
 url = ['https://www.youtube.com/watch?v=OmH_wUt2o6g']

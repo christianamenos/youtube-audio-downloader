@@ -1,4 +1,4 @@
-# Youtube downloader
+# Youtube audio downloader
 
 ## Setup
 
